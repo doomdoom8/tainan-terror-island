@@ -42,7 +42,7 @@
     { "id": "traffic", "number": 5, "name": "路殺島", "place": "佳里", "model": "traffic", "cell": [1, 1], "ground": "#7A7470", "side": "#45403C", "tag": "交通死亡", "summary": "行人地獄不是一句口號——這一格收錄台南奪命車禍與交通死亡統計。" },
     { "id": "drug", "number": 6, "name": "毒駕島", "place": "麻豆", "model": "drug", "cell": [2, 1], "ground": "#6C7A6E", "side": "#3C463E", "tag": "毒駕・毒品", "summary": "咖啡包、製毒工廠、毒駕撞死人——這一格收錄台南的毒品與毒駕事件。", "helplineDrug": true },
     { "id": "work", "number": 7, "name": "工安島", "place": "善化・南科", "model": "work", "cell": [3, 1], "ground": "#7E7670", "side": "#47403C", "tag": "工安意外", "summary": "鷹架、吊臂、槽體與局限空間——這一格收錄台南的工安事故。" },
-    { "id": "garbage", "number": 8, "name": "垃圾島", "place": "安南・城西", "model": "garbage", "cell": [0, 2], "ground": "#857C6C", "side": "#4A4338", "tag": "垃圾危機", "summary": "焚化爐歲修、掩埋場滿載、垃圾越堆越高——這一格收錄台南的垃圾危機。" },
+    { "id": "garbage", "number": 8, "name": "垃圾島", "place": "安南・城西", "model": "garbage", "cell": [0, 2], "ground": "#857C6C", "side": "#4A4338", "tag": "垃圾危機", "summary": "焚化爐歲修、掩埋場滿載、垃圾越堆越高——依廢棄物清理法第5條，台南的家戶垃圾由市府環保局負責清除處理。這一格收錄台南的垃圾危機。" },
     { "id": "dioxin", "number": 9, "name": "戴奧辛島", "place": "安南・安順", "model": "dioxin", "cell": [1, 2], "ground": "#6E6A5A", "side": "#3E3B30", "tag": "毒物污染", "summary": "工廠早就關了，土裡的毒還在——這一格收錄中石化安順廠與台南的毒物污染。" },
     { "id": "flood", "number": 10, "name": "淹水島", "place": "安定・新市", "model": "flood", "cell": [2, 2], "ground": "#6A7884", "side": "#3B4550", "tag": "颱風・淹水", "summary": "一場雨就變成一片海——這一格收錄台南的颱風與豪雨災情。" },
     { "id": "dengue", "number": 11, "name": "登革熱島", "place": "北區", "model": "dengue", "cell": [3, 2], "ground": "#7A7A68", "side": "#45453A", "tag": "登革熱", "summary": "積水容器裡孵出一整座城的恐懼——這一格收錄台南的登革熱疫情。" },
