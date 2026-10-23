@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0",
+  "meta": {
+    "slug": "tainan",
+    "city": "台南",
+    "title": "台南恐怖島",
+    "eyebrow": "TERROR ISLAND",
+    "welcome": "WELCOME, TAINAN",
+    "mascot": "阿飄 · 點一座島，看看府城發生過什麼",
+    "period": {
+      "from": "2010-12-25",
+      "label": "2010/12/25 縣市合併升格至今",
+      "note": "收錄期間為台南縣市合併升格（2010 年 12 月 25 日）至今。民進黨籍市長賴清德（2010/12/25–2017/9/7）、黃偉哲（2018/12/25 至今）任內；其間 2017/9/7–2018/12/25 由行政院派任的無黨籍李孟諺代理市長。"
+    },
+    "disclaimer": "島上收錄的都是經新聞報導查證的真實事件。文字只摘要報導內容、拿掉姓名等個人資訊，並附上原始新聞來源；司法案件依報導當時的偵辦或審理階段描述，不代表最終判決。島上的 3D 場景是示意插畫，不對應任何一位當事人。",
+    "helpline": "如果你或身邊的人正感到痛苦、有輕生的念頭，請撥 1925 安心專線（24 小時免付費）或 1995 生命線，你不需要獨自面對。",
+    "helplineKids": "如果你知道有孩子正在受到傷害，請撥 113 保護專線（24 小時免付費）。",
+    "helplineDrug": "需要戒癮協助，可撥 0800-770-885 毒品危害防制中心諮詢專線。"
+  },
+  "fear": [
+    { "id": "D", "name": "有人死亡", "color": "#3B3A40" },
+    { "id": "G", "name": "槍擊暴力", "color": "#C0392B" },
+    { "id": "P", "name": "治安事件", "color": "#34495E" },
+    { "id": "X", "name": "毒駕毒品", "color": "#2E8B57" },
+    { "id": "Z", "name": "詐騙洗錢", "color": "#5B4B8A" },
+    { "id": "K", "name": "貪瀆犯罪", "color": "#B8860B" },
+    { "id": "T", "name": "交通事故", "color": "#D35400" },
+    { "id": "S", "name": "公安工安", "color": "#E07B24" },
+    { "id": "W", "name": "天災水患", "color": "#2C6DB5" },
+    { "id": "E", "name": "環境污染", "color": "#6B8E23" },
+    { "id": "I", "name": "非法傾倒", "color": "#8E5A2B" },
+    { "id": "F", "name": "食品安全", "color": "#16A085" },
+    { "id": "H", "name": "疫病", "color": "#8E44AD" },
+    { "id": "L", "name": "土地爭議", "color": "#A0522D" },
+    { "id": "Y", "name": "兒少受害", "color": "#E84393" }
+  ],
+  "zones": [
+    { "id": "solar", "number": 1, "name": "光電島", "place": "北門・將軍", "model": "solar", "cell": [0, 0], "ground": "#8C8A7A", "side": "#4E4C42", "tag": "光電爭議", "summary": "鹽田、魚塭與農地上鋪滿了板子——這一格收錄台南光電與漁電共生的爭議。" },
+    { "id": "river", "number": 2, "name": "髒川島", "place": "學甲・急水溪", "model": "river", "cell": [1, 0], "ground": "#6F7A5E", "side": "#3F4633", "tag": "河川污染", "summary": "二仁溪、鹽水溪、急水溪——這一格收錄台南河川被偷排、魚群暴斃的新聞。" },
+    { "id": "food", "number": 3, "name": "食安島", "place": "新營", "model": "food", "cell": [2, 0], "ground": "#7E7A6A", "side": "#47443A", "tag": "食品安全", "summary": "小吃之都也有不能吃的東西——這一格收錄與台南有關的食安事件。" },
+    { "id": "float", "number": 4, "name": "漂浮島", "place": "七股・安平港", "model": "float", "cell": [0, 1], "ground": "#6E7A80", "side": "#3E474C", "tag": "浮屍・落水", "summary": "運河、港口、溪流與海岸——這一格收錄台南的浮屍與落水事件。", "helpline": true },
+    { "id": "traffic", "number": 5, "name": "路殺島", "place": "佳里", "model": "traffic", "cell": [1, 1], "ground": "#7A7470", "side": "#45403C", "tag": "交通死亡", "summary": "行人地獄不是一句口號——這一格收錄台南奪命車禍與交通死亡統計。" },
+    { "id": "drug", "number": 6, "name": "毒駕島", "place": "麻豆", "model": "drug", "cell": [2, 1], "ground": "#6C7A6E", "side": "#3C463E", "tag": "毒駕・毒品", "summary": "咖啡包、製毒工廠、毒駕撞死人——這一格收錄台南的毒品與毒駕事件。", "helplineDrug": true },
+    { "id": "work", "number": 7, "name": "工安島", "place": "善化・南科", "model": "work", "cell": [3, 1], "ground": "#7E7670", "side": "#47403C", "tag": "工安意外", "summary": "鷹架、吊臂、槽體與局限空間——這一格收錄台南的工安事故。" },
+    { "id": "garbage", "number": 8, "name": "垃圾島", "place": "安南・城西", "model": "garbage", "cell": [0, 2], "ground": "#857C6C", "side": "#4A4338", "tag": "垃圾危機", "summary": "焚化爐歲修、掩埋場滿載、垃圾越堆越高——這一格收錄台南的垃圾危機。" },
+    { "id": "dioxin", "number": 9, "name": "戴奧辛島", "place": "安南・安順", "model": "dioxin", "cell": [1, 2], "ground": "#6E6A5A", "side": "#3E3B30", "tag": "毒物污染", "summary": "工廠早就關了，土裡的毒還在——這一格收錄中石化安順廠與台南的毒物污染。" },
+    { "id": "flood", "number": 10, "name": "淹水島", "place": "安定・新市", "model": "flood", "cell": [2, 2], "ground": "#6A7884", "side": "#3B4550", "tag": "颱風・淹水", "summary": "一場雨就變成一片海——這一格收錄台南的颱風與豪雨災情。" },
+    { "id": "dengue", "number": 11, "name": "登革熱島", "place": "北區", "model": "dengue", "cell": [3, 2], "ground": "#7A7A68", "side": "#45453A", "tag": "登革熱", "summary": "積水容器裡孵出一整座城的恐懼——這一格收錄台南的登革熱疫情。" },
+    { "id": "fire", "number": 12, "name": "火災島", "place": "安平", "model": "fire", "cell": [0, 3], "ground": "#7E7068", "side": "#47392F", "tag": "火災・爆炸", "summary": "一把火燒掉一整排房子——這一格收錄台南重大的火災與爆炸。" },
+    { "id": "gun", "number": 13, "name": "槍擊島", "place": "中西區", "model": "gun", "cell": [1, 3], "ground": "#6A6066", "side": "#3A3236", "tag": "槍擊", "summary": "深夜的巷口傳來幾聲槍響——這一格收錄台南的槍擊與持槍案件。" },
+    { "id": "street", "number": 14, "name": "治安島", "place": "東區", "model": "street", "cell": [2, 3], "ground": "#646A72", "side": "#363B42", "tag": "暴力・兇殺", "summary": "街頭鬥毆、擄人、兇殺——這一格收錄台南的重大治安事件。" },
+    { "id": "quake", "number": 15, "name": "震災島", "place": "永康", "model": "quake", "cell": [3, 3], "ground": "#7E7882", "side": "#45414A", "tag": "地震倒塌", "summary": "凌晨的一陣搖晃，一棟大樓躺了下來——這一格收錄台南的地震災情。" },
+    { "id": "graft", "number": 16, "name": "貪瀆島", "place": "南區", "model": "graft", "cell": [1, 4], "ground": "#807660", "side": "#484134", "tag": "貪汙賄選", "summary": "錢袋在議事廳裡流動——這一格收錄台南的貪汙、賄選與收賄案。" },
+    { "id": "scam", "number": 17, "name": "詐騙島", "place": "仁德", "model": "scam", "cell": [2, 4], "ground": "#6E687A", "side": "#3E3A46", "tag": "詐騙・洗錢", "summary": "電話整夜響個不停——這一格收錄在台南破獲的詐騙與洗錢案。" },
+    { "id": "kids", "number": 18, "name": "兒少島", "place": "歸仁", "model": "kids", "cell": [3, 4], "ground": "#7E7478", "side": "#463F42", "tag": "兒少保護", "summary": "旋轉木馬還在轉，笑聲背後是孩子沒說出口的傷——這一格收錄台南的兒少受害事件。", "helplineKids": true },
+    { "id": "fall", "number": 19, "name": "墜落島", "place": "關廟", "model": "fall", "cell": [4, 4], "ground": "#7A7480", "side": "#433F48", "tag": "墜落", "summary": "高處之下，一則又一則墜落的消息——這一格收錄台南的墜樓與墜落事件。", "helpline": true }
+  ],
+  "wilds": [
+    { "cell": [3, 0], "label": "白河・關子嶺" },
+    { "cell": [4, 0], "label": "東山・崁頭山" },
+    { "cell": [4, 1], "label": "楠西・梅嶺" },
+    { "cell": [4, 2], "label": "玉井・南化" },
+    { "cell": [5, 2], "label": "南化水庫" },
+    { "cell": [4, 3], "label": "左鎮・月世界" },
+    { "cell": [5, 3], "label": "龍崎・草山" }
+  ],
+  "intro": [
+    { "title": "不是傳說，是新聞", "body": "19 個六邊形拼成一座府城。每一座島收錄的，都是台南真實發生、有新聞報導可查的事件——槍擊、毒品、詐騙、震災、淹水、污染……" },
+    { "title": "點進事件，看原始報導", "body": "點開一座島，右側是它的事件清單；點進一則事件，就能看到摘要、日期地點與原始新聞連結。" },
+    { "title": "沿著時間軸往回看", "body": "拖動「事件時間軸」，看每個月哪幾座島亮了起來；按 ▶ 可以一個月一個月播放。也可以按「導覽」從頭看一遍。" }
+  ],
+  "tour": [
+    { "target": "all", "time": 1260, "caption": "歡迎來到台南恐怖島。古都的每一條巷子，都曾經是新聞頭條。" },
+    { "target": "gun", "time": 1350, "caption": "槍擊島——深夜的巷口傳來幾聲槍響，鐵捲門上留下了彈孔。" },
+    { "target": "street", "time": 1320, "caption": "治安島——封鎖線拉起來又收起來，警車的燈一直沒有停過。" },
+    { "target": "drug", "time": 1290, "caption": "毒駕島——咖啡包看起來像零食，方向盤後面的人，眼神已經不對了。" },
+    { "target": "scam", "time": 60, "caption": "詐騙島——電話那頭的聲音很親切，帳戶裡的錢卻一筆一筆消失。" },
+    { "target": "graft", "time": 1200, "caption": "貪瀆島——議事廳的燈還亮著，錢袋在桌子底下悄悄傳遞。" },
+    { "target": "quake", "time": 240, "caption": "震災島——凌晨四點的一陣搖晃，一棟大樓整個躺了下來。" },
+    { "target": "flood", "time": 780, "caption": "淹水島——一場雨，馬路變成了河，客廳變成了湖。" },
+    { "target": "dengue", "time": 1080, "caption": "登革熱島——積水容器裡，有東西正在孵化。" },
+    { "target": "dioxin", "time": 1110, "caption": "戴奧辛島——工廠早就關了，土裡的毒，還在。" },
+    { "target": "garbage", "time": 720, "caption": "垃圾島——焚化爐停了，垃圾山一天比一天高。" },
+    { "target": "float", "time": 330, "caption": "漂浮島——港口很平靜，直到有人發現，水裡漂著什麼。" },
+    { "target": "all", "time": 360, "caption": "導覽結束。天亮之前，別回頭。" }
+  ]
+}
